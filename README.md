@@ -1,6 +1,6 @@
 # Noise-Estimation
 noise estimation with non-local methods
-this algorithm is for raw image noise estimation. As the format of raw image is RGGB, I use img_clip_merge.py split the original image into 4 channels for noise estimation and final merge together respectively. If you use a RGB image as input, you can simple modify img_clip_merge.py properly.
+<p>this algorithm is for raw image noise estimation. As the format of raw image is RGGB, I use img_clip_merge.py split the original image into 4 channels for noise estimation and final merge together respectively. If you use a RGB image as input, you can simple modify img_clip_merge.py properly.</p>
 I provide 3 styles noise estimation methods: 
 block_matching_slow.ipynb: move stride is 1
 block_matching_faster2.ipynb: move stride is 3
